@@ -1,0 +1,156 @@
+/* CLASSES */
+
+.green-bg {
+    background-color: #1F3127;
+}
+
+.white-text {
+    color: white;
+}
+
+
+
+.contact-link {
+    font-size: 110px;
+    font-weight: bold;    
+}
+
+@media screen and (max-width: 960px) {
+    .contact-link {
+      font-size: 80px;
+    }
+}
+
+
+
+body {
+    margin: 0;
+}
+
+section {
+    padding: 5% 20% 0 7%;
+    border: 0;
+}
+
+
+
+
+
+/* LINKS */
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-link a:link {
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-link a:hover {
+    color: blue;
+    border-bottom: 0.5px solid blue;
+}
+
+
+
+
+
+/* IMAGE CLASSES */
+
+.photo-pic {
+    display: block;
+    width: 40%;
+    height: auto;
+}
+
+.boardgame-pic {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 7.5%;
+    padding-bottom: 15%
+}
+
+@media screen and (max-width: 768px) {
+    .photo-pic,
+    .boardgame-pic {
+        min-width: 100%;
+    }
+}
+
+
+
+.full-screen-pic {
+    display: block;
+    width:auto;
+    height:auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.icon-pic {
+    max-width: 80px;
+    display: inline;
+    height: auto;
+    padding-right: 5%
+}
+
+
+
+
+
+/* FONTS */
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1140px;
+    font-size: 36px;
+    line-height: 130%;
+    color: #1F3127;
+}
+
+@media screen and (max-width: 960px) {
+    p {
+      font-size: 20px;
+    }
+}
+
+
+
+h1 {
+    font-size: 110px;
+    font-weight: bold;
+    line-height: 130%;
+    color: #1F3127;
+    margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+    h1 {
+      font-size: 80px;
+      line-height: 100%;
+    }
+}
+
+
+
+h2 {
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 130%;
+    color: #1F3127;
+    margin: 0 0 5% 0;
+}
+
+@media screen and (max-width: 960px) {
+    h2 {
+      font-size: 40px;
+    }
+}
